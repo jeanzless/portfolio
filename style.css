@@ -1,0 +1,71 @@
+
+* {
+  box-sizing: border-box; 
+}
+
+html, body {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Barlow", Helvetica, Arial;
+  height: 100vh;
+}
+
+header {
+    background: teal
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.first-section {
+  display: flex;
+  flex-direction: row;
+  height: 75vh;
+}
+
+.third_section {
+  background: seagreen;
+  height: 400px;
+}
+
+
+footer {
+  background: grey
+
+}
+
+.main-class-1 {
+  background: turquoise;
+  flex: 1;
+  padding: 40px;
+}
+
+.main-class-2 {
+  background: magenta;
+  flex: 1;
+  padding: 40px;
+}
+
+.main-class-3 {
+  background: cyan;
+  flex: 1;
+  padding: 40px;
+}
+
+
+div.cv:hover {
+  transition: ease-in 1s;
+  transform: scale(1.75);
+}
+
+h2 {
+  padding: 10px;
+}
